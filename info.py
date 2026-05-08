@@ -31,7 +31,7 @@ CODE = (environ.get('CODE', 'https://te.legra.ph/sahils-QR-05-26'))
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', ''))
 STREAM_API = (environ.get('STREAM_API', ''))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HowToOpenLinkHP/69'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/binaryQuest'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1702061654 7357726710').split()]
